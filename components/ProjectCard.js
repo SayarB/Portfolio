@@ -13,8 +13,8 @@ export default function ProjectCard({ project }) {
           <p>{project.description}</p>
         </div>
         <div className={styles.stack_images}>
-          {project.stack.map((tech) => {
-            return <img src={`/${tech}.png`} alt={tech} />;
+          {project.stack.map((tech, i) => {
+            return <img key={"tech-" + i} src={`/${tech}.png`} alt={tech} />;
           })}
         </div>
       </div>

@@ -4,7 +4,7 @@ import certificates from "../certificates.json";
 import ProjectCard from "../components/ProjectCard";
 import Link from "next/link";
 import { useState } from "react";
-export default function projectsPage() {
+export default function CertificatePage() {
   const [selectedOrg, setSelectedOrg] = useState(0);
   const [certificate, setCertificate] = useState(0);
   return (
