@@ -1,0 +1,58 @@
+.card_container {
+  max-width: 400px;
+
+  padding: 2rem;
+  background-color: white;
+  margin: 2rem;
+  flex: 1;
+  border-radius: 2rem;
+  transition: 500ms;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card_container > * {
+  transition: 500ms;
+}
+.project_card {
+  min-width: 250px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.card_text h2 {
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+.card_text > p {
+  font-size: 2rem;
+  width: 90%;
+  margin: auto;
+}
+.stack_images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.stack_images > img {
+  flex: 1;
+  max-width: 100px;
+  margin: 20px;
+}
+.links {
+  transition: 500ms;
+}
+.links > a {
+  margin: 20px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(20, 122, 255);
+}
+.links > a:hover {
+  margin-bottom: 20px;
+}
