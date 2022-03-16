@@ -15,7 +15,13 @@ export default function about() {
       <h1 className={styles.header_text}>About</h1>
       <div className={styles.about_text_div}>
         <div className={styles.about_image}>
-          <img src="my_image.jpg" alt="" className={styles.about_image} />
+          <img
+            src={
+              "https://ik.imagekit.io/sayarb/Portfolio/my_image_5RR-_l5Oc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647447410400"
+            }
+            alt=""
+            className={styles.about_image}
+          />
         </div>
         <div className={styles.about_text}>
           <h1>Sayar Bhattacharyya</h1>

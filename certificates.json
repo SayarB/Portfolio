@@ -6,27 +6,27 @@
       {
         "title": "Java (Basic)",
         "link": "https://www.hackerrank.com/certificates/fb9fe8be1687",
-        "img_src": "/java-basic-cert.png"
+        "img_src": "https://ik.imagekit.io/sayarb/Portfolio/java-basic-cert_xeT95NjzJ.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1647447411359"
       },
       {
         "title": "JavaScript (Basic)",
         "link": "https://www.hackerrank.com/certificates/1cac79a38e09",
-        "img_src": "/javascript-basic-cert.png"
+        "img_src": "https://ik.imagekit.io/sayarb/Portfolio/javascript-basic-cert_KQSdwmQbN.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1647447411492"
       },
       {
         "title": "React (Basic)",
         "link": "https://www.hackerrank.com/certificates/98155c9c9d68",
-        "img_src": "/react-basic-cert.png"
+        "img_src": "https://ik.imagekit.io/sayarb/Portfolio/react-basic-cert_-RYPnc1GG5.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1647447411346"
       },
       {
         "title": "Python (Basic)",
         "link": "https://www.hackerrank.com/certificates/c9c95a002c7b",
-        "img_src": "/python-basic-cert.png"
+        "img_src": "https://ik.imagekit.io/sayarb/Portfolio/python-basic-cert_IQJWA30bV.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1647447411479"
       },
       {
         "title": "SQL (Basic)",
         "link": "https://www.hackerrank.com/certificates/8ab3f7bda925",
-        "img_src": "/sql-basic-cert.png"
+        "img_src": "https://ik.imagekit.io/sayarb/Portfolio/sql-basic-cert_XeN5YYmpz.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1647447411539"
       }
     ]
   },
@@ -37,12 +37,12 @@
       {
         "title": "Launching into ML",
         "link": "https://coursera.org/share/569ec1c88e6dfe917f53359c8db72ea1",
-        "img_src": "/launching-into-ml.png"
+        "img_src": "https://ik.imagekit.io/sayarb/Portfolio/launching-into-ml_7EKgkDcba.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1647447410627"
       },
       {
         "title": "How Google Does Machine Learning",
         "link": "https://coursera.org/share/1b7837b1dbde146fa7226673556db85b",
-        "img_src": "/how-google-does-ml.png"
+        "img_src": "https://ik.imagekit.io/sayarb/Portfolio/how-google-does-ml_RBZxkqZ-B.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1647447410533"
       }
     ]
   }

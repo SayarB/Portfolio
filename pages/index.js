@@ -27,7 +27,10 @@ export default function Home() {
           Github
         </a>
       </div>
-      <img src="/banner.svg" className={styles.banner_img} />
+      <img
+        src="https://ik.imagekit.io/sayarb/Portfolio/banner_iEqQQx7DD.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1647447410080"
+        className={styles.banner_img}
+      />
       <div className={styles.navbar}>
         <Link href="projects">Projects</Link>
         <Link href="certificates">Certificate</Link>
