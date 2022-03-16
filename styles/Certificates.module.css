@@ -4,8 +4,6 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-size: 200vh;
-  background-image: linear-gradient(to top, #f34177 10%, #8b19e9);
 }
 
 .header_text {
@@ -33,7 +31,7 @@
 }
 .organization_tab {
   color: #ffffff;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -46,7 +44,7 @@
   border-bottom: 0.3rem solid black;
 }
 .organization_logo {
-  width: 5rem;
+  width: 4rem;
   margin: 0.5rem 1rem;
 }
 .certificate_preview_container {
@@ -79,6 +77,13 @@
   border-radius: 1rem;
   margin: 2rem;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.certificate_preview > * {
+  margin: 1rem;
 }
 .preview_image {
   width: 100%;
@@ -94,7 +99,42 @@
   text-align: center;
   margin: 0 2rem;
   background-color: rgb(61, 5, 61);
+  font-size: 2rem;
+  color: white;
 }
 .visit_button:hover {
   background-color: transparent;
+}
+@media screen and (max-width: 600px) {
+  .certificate_preview_container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .certificate_list > ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .certificate_list li {
+    text-align: center;
+    margin: 10px;
+  }
+  .certificate_list {
+    flex: 0;
+  }
+}
+
+@keyframes breathe {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
 }

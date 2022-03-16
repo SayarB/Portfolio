@@ -1,4 +1,5 @@
 import styles from "../styles/Certificates.module.css";
+import Head from "next/head";
 import certificates from "../certificates.json";
 import ProjectCard from "../components/ProjectCard";
 import Link from "next/link";
@@ -8,6 +9,11 @@ export default function projectsPage() {
   const [certificate, setCertificate] = useState(0);
   return (
     <div className={styles.container}>
+      <Head>
+        <title>{"Sayar's Certificates"}</title>
+        <meta name="description" content="Sayar' Portfolio Website" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Link className={styles.back_link} href="/">
         {"<Back"}
       </Link>
@@ -49,16 +55,6 @@ export default function projectsPage() {
                 }
               >
                 <p>{cert.title}</p>
-                {certificate === i && (
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href={cert.link}
-                    className={styles.visit_button}
-                  >
-                    Visit
-                  </a>
-                )}
               </li>
             ))}
           </ul>
@@ -69,6 +65,14 @@ export default function projectsPage() {
             src={certificates[selectedOrg].certificates[certificate].img_src}
             alt=""
           />
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href={certificates[selectedOrg].certificates[certificate].link}
+            className={styles.visit_button}
+          >
+            Visit
+          </a>
         </div>
       </div>
     </div>

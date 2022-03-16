@@ -3,9 +3,6 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-size: 200%;
-  background-image: linear-gradient(to right, #f34177 10%, #8b19e9);
-  animation: breathe 10s ease-out infinite;
 }
 .banner_img {
   opacity: 0;
@@ -72,16 +69,5 @@
 @keyframes popout-bottom {
   to {
     transform: translate(-50%, -100%);
-  }
-}
-@keyframes breathe {
-  0% {
-    background-position: left;
-  }
-  50% {
-    background-position: right;
-  }
-  100% {
-    background-position: left;
   }
 }

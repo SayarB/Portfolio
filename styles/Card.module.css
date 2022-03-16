@@ -17,7 +17,7 @@
 }
 .project_card {
   min-width: 250px;
-  height: 500px;
+  height: 600px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -55,4 +55,9 @@
 }
 .links > a:hover {
   margin-bottom: 20px;
+}
+@media screen and (max-width: 1350px) {
+  .project_card {
+    height: 500px;
+  }
 }

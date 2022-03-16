@@ -1,21 +1,21 @@
 [
   {
     "title": "Coffee House",
-    "description": "Sint deserunt voluptate ut adipisicing ut sint excepteur laborum.",
+    "description": "A Chat Application with the help of firebase and firestore. Using React and CSS for UI. You can create Rooms which may have passwords and can invite friends to discuss over a topic",
     "stack": ["react", "firebase"],
     "github": "https://github.com/SayarB/QuizApp",
     "visit": "https://coffee-house-by-sayar.firebaseapp.com"
   },
   {
     "title": "Quiz App",
-    "description": "Sint deserunt voluptate ut adipisicing ut sint excepteur laborum.",
+    "description": "A quiz app with the help of OpenTriviaDB, NextJS MUI and CSS. You can Select Categories and number of questions and test your knowledge about the topic.",
     "stack": ["react", "nextjs", "mui"],
     "github": "https://github.com/SayarB/QuizApp",
     "visit": "https://quizzzer.vercel.app"
   },
   {
     "title": "Tic Tac 2",
-    "description": "Sint deserunt voluptate ut adipisicing ut sint excepteur laborum.",
+    "description": "A Realtime Multiplayer Tic-Tac-Toe game created with the power of Sockets, NextJS and NodeJS. You can create rooms or join rooms and play with your friends.",
     "stack": ["socketio", "express", "nextjs", "react"],
     "github": "https://github.com/SayarB/TicTac2",
     "visit": "https://tictac2.vercel.app"
