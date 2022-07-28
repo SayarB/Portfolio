@@ -28,6 +28,13 @@ a {
   margin: 0;
   box-sizing: border-box;
 }
+.back_link {
+  color: white;
+  font-size: 2rem;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+}
 html {
   width: 100vw;
   height: 100vh;
