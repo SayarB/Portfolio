@@ -44,6 +44,7 @@
   left: 50%;
   transform: translate(-50%);
   top: 100vh;
+  top: calc(var(--vh, 1vh) * 100);
   animation: popout-bottom 200ms 700ms ease-in-out forwards;
 }
 .navbar > a {
