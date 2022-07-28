@@ -26,13 +26,7 @@ export default function about() {
         <div className={styles.about_text}>
           <h1>Sayar Bhattacharyya</h1>
           <p>
-            Consequat irure aute labore ut sit cupidatat nisi ad quis sit. Sunt
-            cupidatat eu do sunt labore culpa aliquip sunt laboris incididunt
-            laboris. Pariatur dolor minim cillum ullamco proident Lorem qui.
-            Minim minim anim nostrud ad irure labore ex ipsum consectetur nisi.
-            Duis quis ullamco irure velit. Fugiat fugiat duis amet et eu
-            adipisicing adipisicing adipisicing nulla elit duis est ullamco
-            laborum. Quis duis ut irure dolore elit nulla ut ullamco ea qui.
+            I am Full Stack Developer predominantly working in javascript libraries and frameworks, like ReactJS, NextJS, Nodejs. I am a part of Google Developer Students Club, VIT, and Codechef, VIT. I have also done an internship at a startup named FuncBox in which I contributed heavily with the implementation of Redux in the frontend and making Vanilla JS games. Apart from tech, I have a keen interest in music and occupy myself, in my spare time with composing music and mixing tracks.
           </p>
         </div>
       </div>
