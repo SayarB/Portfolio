@@ -1,0 +1,11 @@
+.resume {
+  width: min(700px, 90vw);
+  max-height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.resume > img {
+  width: 100%;
+}

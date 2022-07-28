@@ -12,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.social_links}>
+        <Link href={"/resume"}>Resume</Link>
         <a
           rel="noreferrer noopener"
           target="_blank"
