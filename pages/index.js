@@ -16,7 +16,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Sayar Bhattacharyya</title>
-        <meta name="description" content="Sayar' Portfolio Website" />
+        <meta name="description" content="Sayar's Portfolio Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.social_links}>
