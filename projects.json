@@ -19,5 +19,19 @@
     "stack": ["socketio", "express", "nextjs", "react"],
     "github": "https://github.com/SayarB/TicTac2",
     "visit": "https://tictac2.vercel.app"
+  },
+  {
+    "title": "Rendermark (Work In Progress)",
+    "description": "A website that lets users make promo videos from a markdown containing images and text for the scenes.",
+    "github": "https://github.com/SayarB/RenderMark-frontend",
+    "stack": ["nextjs"],
+    "visit": "https://rendermark.dscvit.com/"
+  },
+  {
+    "title": "Attendance App (Work In Progress)",
+    "description": "An attendance taking app that lets only the users in a range of distance register their attendance for a meeting. Made using Geolocation Api, React, and TailwindCSS(Only for listed users)",
+    "github": "https://github.com/SayarB/attendance-app-frontend",
+    "stack": ["react", "tailwind"],
+    "visit": "https://nock-attendance.netlify.app/"
   }
 ]

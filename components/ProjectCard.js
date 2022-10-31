@@ -15,6 +15,8 @@ export default function ProjectCard({ project }) {
       "https://ik.imagekit.io/sayarb/Portfolio/firebase_sS-DpBkjC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647447410048",
     socketio:
       "https://ik.imagekit.io/sayarb/Portfolio/socketio_w4-Iyo9nXB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647447410059",
+    tailwind:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
   };
   return (
     <div className={styles.card_container}>
