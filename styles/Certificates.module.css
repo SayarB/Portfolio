@@ -24,6 +24,7 @@
 
 .organizations_nav {
   display: flex;
+  overflow-x: scroll;
   margin: 0 2rem;
 }
 .organization_nav p {
