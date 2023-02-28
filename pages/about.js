@@ -1,6 +1,7 @@
 import styles from "../styles/About.module.css";
 import Link from "next/link";
 import Head from "next/head";
+import Image from "next/image";
 export default function about() {
   return (
     <div className={styles.container}>
@@ -15,7 +16,10 @@ export default function about() {
       <h1 className={styles.header_text}>About</h1>
       <div className={styles.about_text_div}>
         <div className={styles.about_image}>
-          <img
+          <Image
+            layout="responsive"
+            width={200}
+            height={250}
             src={
               "https://ik.imagekit.io/sayarb/Portfolio/my_image_5RR-_l5Oc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647447410400"
             }

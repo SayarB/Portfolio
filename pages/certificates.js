@@ -3,6 +3,7 @@ import Head from "next/head";
 import certificates from "../certificates.json";
 import ProjectCard from "../components/ProjectCard";
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 export default function CertificatePage() {
   const [selectedOrg, setSelectedOrg] = useState(0);
@@ -32,11 +33,14 @@ export default function CertificatePage() {
                 (selectedOrg == i ? " " + styles.selected_nav : "")
               }
             >
-              <img
-                src={cert.organization_logo}
-                alt="Organization LOGO"
-                className={styles.organization_logo}
-              />
+              <div className={styles.organization_logo}>
+                <Image
+                layout="fill"
+                  src={cert.organization_logo}
+                  alt="Organization LOGO"
+                  
+                />
+              </div>
               <p>{cert.organization}</p>
             </div>
           );
@@ -60,11 +64,14 @@ export default function CertificatePage() {
           </ul>
         </div>
         <div className={styles.certificate_preview}>
-          <img
-            className={styles.preview_image}
-            src={certificates[selectedOrg].certificates[certificate].img_src}
-            alt=""
-          />
+          <div className={styles.preview_image}>
+            <Image
+              layout="fill"
+              objectFit="contain"
+              src={certificates[selectedOrg].certificates[certificate].img_src}
+              alt=""
+            />
+          </div>
           <a
             rel="noreferrer"
             target="_blank"

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useState } from "react";
 import styles from "../styles/Card.module.css";
 export default function ProjectCard({ project }) {
@@ -31,7 +32,17 @@ export default function ProjectCard({ project }) {
         </div>
         <div className={styles.stack_images}>
           {project.stack.map((tech, i) => {
-            return <img key={"tech-" + i} src={imageLinks[tech]} alt={tech} />;
+            return (
+            <div
+              key={`image-${i}`}
+              style={{
+                position: 'relative',
+                width: '100px',
+                height:'100px',
+              }}
+            >
+              <Image layout="fill" object-fit='cover' src={imageLinks[tech]} alt={tech} />
+            </div>);
           })}
         </div>
       </div>
