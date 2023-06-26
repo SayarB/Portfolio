@@ -36,6 +36,8 @@ export default function CertificatePage() {
               <div className={styles.organization_logo}>
                 <Image
                 layout="fill"
+                placeholder="blur"
+                blurDataURL={cert.organization_logo}
                   src={cert.organization_logo}
                   alt="Organization LOGO"
                   
@@ -68,6 +70,8 @@ export default function CertificatePage() {
             <Image
               layout="fill"
               objectFit="contain"
+              blurDataURL={certificates[selectedOrg].certificates[certificate].img_src}
+              placeholder="blur"
               src={certificates[selectedOrg].certificates[certificate].img_src}
               alt=""
             />

@@ -41,7 +41,7 @@ export default function ProjectCard({ project }) {
                 height:'100px',
               }}
             >
-              <Image layout="fill" object-fit='cover' src={imageLinks[tech]} alt={tech} />
+              <Image layout="fill" placeholder="blur" blurDataURL={imageLinks[tech]} object-fit='cover' src={imageLinks[tech]} alt={tech} />
             </div>);
           })}
         </div>

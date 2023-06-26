@@ -20,6 +20,8 @@ export default function about() {
             layout="responsive"
             width={200}
             height={250}
+            placeholder="blur"
+            blurDataURL="https://ik.imagekit.io/sayarb/Portfolio/my_image_5RR-_l5Oc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647447410400"
             src={
               "https://ik.imagekit.io/sayarb/Portfolio/my_image_5RR-_l5Oc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647447410400"
             }
