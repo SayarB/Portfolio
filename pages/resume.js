@@ -9,7 +9,7 @@ export default function Resume() {
         {"<Back"}
       </Link>
       <div className={styles.resume}>
-        <Image width={600} height={800} src="/resume.png" alt="" />
+        <Image width={600} height={800} src="/resume.png" alt="" placeholder="blur" />
       </div>
       <button
         onClick={() => {
