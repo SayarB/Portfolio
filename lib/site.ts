@@ -6,3 +6,7 @@ export const site = {
   description:
     "Sayar Bhattacharyya is a full stack engineer in New Delhi building AI agents and the tools around them.",
 };
+
+// Update this date whenever public/resume.pdf is replaced. It becomes part of the download file name.
+export const resumeUpdated = "2026-11-09";
+export const resumeFileName = `Resume_${site.name.replace(/\s+/g, "_")}_${resumeUpdated}.pdf`;

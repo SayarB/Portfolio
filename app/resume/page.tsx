@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { site } from "@/lib/site";
+import { resumeFileName, site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Resume",
@@ -158,7 +158,7 @@ export default function ResumePage() {
         </ul>
       </div>
 
-      <a className="print-btn" href="/resume.pdf" download="Sayar_Bhattacharyya_Resume.pdf">
+      <a className="print-btn" href="/resume.pdf" download={resumeFileName}>
         Download PDF
       </a>
     </article>
