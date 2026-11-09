@@ -17,5 +17,9 @@
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",
     "typescript": "^5.9.0"
-  }
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "packageManager": "pnpm@9.15.9"
 }
