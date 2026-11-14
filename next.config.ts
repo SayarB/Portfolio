@@ -1,8 +1,11 @@
 import type { NextConfig } from "next";
+import { withEve } from "eve/next";
 import { resumeFileName } from "./lib/site";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  // Next 16 dev would otherwise write an AGENTS.md into the repo.
+  agentRules: false,
   // Saving the PDF from the browser viewer uses this name too.
   async headers() {
     return [
@@ -18,4 +21,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withEve(nextConfig);

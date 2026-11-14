@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Ask } from "@/components/ask";
 import { site } from "@/lib/site";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <a href={`mailto:${site.email}`}>say hello</a>.
       </p>
       <p className="sig">Sayar</p>
+      {process.env.CHAT_ENABLED === "1" && <Ask />}
     </div>
   );
 }

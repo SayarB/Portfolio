@@ -27,6 +27,10 @@ yarn-error.log*
 # local env files (anything starting with .env)
 .env*
 
+# eve build output
+.eve
+.output
+
 # vercel
 .vercel
 
